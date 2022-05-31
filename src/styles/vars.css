@@ -1,0 +1,17 @@
+:root{
+    --main-white: white;
+    --main-text: #010101;
+    --main-background-darck: #192133;
+    --input-color: #323949;
+    --yellow-white: #D1AD4E;
+    --yellow-darck: #CFAA47;
+    --yellow-border: #C3A657;
+    --placeholder-input: #A09A9A;
+    --categories: #41638b;
+
+    --font-name:2em;
+    --font-16:1.6em;
+    --font-14:1.4em;
+    --font-12:1.2em;
+
+}

@@ -1,0 +1,27 @@
+{
+  "name": "api-rest-moviedatabase",
+  "version": "1.0.0",
+  "description": "Creacion de pagina web con el uso de api ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christian-OS17/api-rest-movieDataBase.git"
+  },
+  "keywords": [
+    "javascript",
+    "apirest",
+    "package"
+  ],
+  "author": "Christina OS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christian-OS17/api-rest-movieDataBase/issues"
+  },
+  "homepage": "https://github.com/Christian-OS17/api-rest-movieDataBase#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
