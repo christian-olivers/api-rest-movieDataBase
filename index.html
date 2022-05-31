@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/src/styles/main.css">
+    <title>Document</title>
+</head>
+<body class="body--active">
+    <header id="headerOptions" class="container-header">
+        <h1>Pelís Collage</h1>
+    </header>
+
+    <section id = "sectionMain" class="section-container-main-active">
+        <div class="img-post-main"></div>
+            <form  id="searchForm" class="form-search">
+                <input type="text" placeholder="Buscar peli">
+                <button id="btnFormSearch" class="btn-form-search">Busc</button>
+            </form>
+        <div id="mainCotainer" class="main-container-active">
+            <div id="containerCategoriesMain" class="container-categories-main">
+                <h2>Categories</h2>
+                <div class="container-categories"></div>
+            </div>
+            <div id="containeriDvider" class="container-divider">
+                <h2>Tendencias</h2>
+                <button class="btn-see-more">Ver mas</button>
+            </div>
+            <div id="containerTrendsMainMovies" class="container-trends-main-movies">
+                <!-- <div class="movie-container">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/apcVnxYbk8Z6bIBbQQG8Sf9veiR.jpg" alt="">
+                </div> -->
+            </div>
+        </div>
+        <div id="containerSearchMovies" class="container-search-movies">
+        </div>
+    </section>
+
+    <section id = "sectionCategories" class="section-container-categories">
+    </section>
+
+    <section id = "sectionDetail" class="section-contianer-detail">
+        <div id="imagePostDetail" class="img-post-detail">
+        </div>
+        <section id="containerMovieDetail" class="container-movie-detail">
+            <div id="titleDetail" class="title-movie-content">
+                <h1>Monkey king hero is back</h1>
+                <div class="calification">
+                    <p>7.5</p>
+                    <img src="./src/assets/star_77949.svg" alt="">
+                </div>
+            </div>
+            <div class="categories-movie-content">
+            </div>
+            <div class="synopsis-movie">
+                <h2>Synopsis</h2>
+                <p>
+                    El poderoso Rey Mono vagaba a sus anchas entre el reino del Cielo y de la Tierra hasta que un día, tras encolerizar a los dioses, fue castigado a permanecer por siempre en el interior de una celda helada profundamente oculta en una zona montañosa. 500 años después, un grupo de niños huye hacia las montañas cuando su pueblo es atacado por un terrible grupo de monstruos. Sin saberlo, los jóvenes liberan al Rey Mono, que decide entonces hacer todo lo posible por salvar el pueblo del ataque de las criaturas que lo asolan.
+                </p>
+            </div>
+        </section>
+        
+        <div id="containerRecommendationMovies" class="container-recomendation-movies">
+            <h2>Recommendation</h2>
+            <div class="recommendation-movies">
+                <div class="movie-container">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/apcVnxYbk8Z6bIBbQQG8Sf9veiR.jpg" alt="">
+                </div>
+                <div class="movie-container">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/apcVnxYbk8Z6bIBbQQG8Sf9veiR.jpg" alt="">
+                </div>
+                <div class="movie-container">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/apcVnxYbk8Z6bIBbQQG8Sf9veiR.jpg" alt="">
+                </div>
+                <div class="movie-container">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/apcVnxYbk8Z6bIBbQQG8Sf9veiR.jpg" alt="">
+                </div>
+                <div class="movie-container">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/apcVnxYbk8Z6bIBbQQG8Sf9veiR.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id = "sectiontrends" class="section-container-trends">
+        
+    </section>
+
+    <footer>
+        <p> Echo con ❤️ Cristian OS </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type='text/javascript' src='./src/config.js'></script>
+    <script type='text/javascript' src="./src/main.js"> </script>
+    <script type='text/javascript' src="./src/node.js"></script>
+    <script type='text/javascript' src="./src/navigation.js"></script>
+</body>
+</html>
