@@ -40,3 +40,9 @@ const containerSynopsis = document.querySelector('#containerMovieDetail .synopsi
 const h2Synopsis = document.createElement('h2');
 const pSynopsis = document.createElement('p');
 const recommendationMovie = document.getElementById('containerRecommendationMovies');
+
+/*treding */
+const sectionTrens = document.getElementById('sectiontrends');
+const trendingBtn = document.querySelector('.btn-see-more');
+const containerTrends = document.querySelector('#sectiontrends .constainer-trends');
+const contsinerBtn = document.querySelector('#sectiontrends .container-btn');
